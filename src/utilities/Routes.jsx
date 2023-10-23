@@ -3,7 +3,7 @@ import {Route,Routes,createBrowserRouter,RouterProvider } from 'react-router-dom
 
 
 import Main from './Main'
-
+import Home from '../pages/home/home'
 
 const Router = () => {
   const [elmBlog, setElmBlog] = useState([]);
@@ -13,10 +13,10 @@ const Router = () => {
       path: '/',
       element: <Main/>,
       children: [
-        // {
-        //   path: '/',
-        //   element: <Home/>
-        // },
+        {
+          path: '/',
+          element: <Home/>
+        },
       ]  
       
         },
