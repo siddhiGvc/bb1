@@ -4,6 +4,12 @@
     background-color: rgb(250,250,250);
     padding-left: 20px;
     
+}
 
-
+/* .container>div>div:nth-child(2){
+    width:40%;
+} */
+.container>div{
+    display: flex;
+    gap: 200px;
 }
