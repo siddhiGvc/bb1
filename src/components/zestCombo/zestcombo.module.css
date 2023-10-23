@@ -2,11 +2,11 @@
   
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 10px;
 }
 
 .container{
-    width:250px;
+    width:290px;
     height: 700px;
     padding-top: 60px;
     background-color: #ffffff;

@@ -106,23 +106,21 @@ export default function ZestCombo(){
        
         <div className={styles.rowContainer}>
         <div className={styles.buttonBox}>
-        <Button variant="contained" sx={{backgroundColor:'#0094CE',position:"static",width:"100%",margin:"auto",height:"100px",fontSize:"100%",fontWeight:"400"}}>QUERY</Button>
+        <Button variant="contained" sx={{backgroundColor:'#0094CE',position:"static",width:"100%",margin:"auto",height:"100px",fontSize:"100%",fontWeight:"400"}}>SET PRICE</Button>
         </div>
         <div className={styles.buttonBox}>
-        <Button variant="contained" sx={{backgroundColor:'#0094CE',position:"static",width:"100%",margin:"auto",height:"200px",fontSize:"100%",fontWeight:"400"}}>QUERY</Button>
+        <Button variant="contained" sx={{backgroundColor:'#0094CE',position:"static",width:"100%",margin:"auto",height:"200px",fontSize:"100%",fontWeight:"400"}}>SET TEMPERATURE</Button>
         </div>
         <div className={styles.buttonBox}>
-        <Button variant="contained" sx={{backgroundColor:'#0094CE',position:"static",width:"100%",margin:"auto",height:"150px",fontSize:"100%",fontWeight:"400"}}>QUERY</Button>
+        <Button variant="contained" sx={{backgroundColor:'#0094CE',position:"static",width:"100%",margin:"auto",height:"150px",fontSize:"100%",fontWeight:"400"}}>INCERNATOR SETTINGS</Button>
         </div>
         <div className={styles.buttonBox}>
-        <Button variant="contained" sx={{backgroundColor:'#0094CE',position:"static",width:"100%",margin:"auto",height:"40px",fontSize:"100%",fontWeight:"400"}}>QUERY</Button>
+        <Button variant="contained" sx={{backgroundColor:'#0094CE',position:"static",width:"100%",margin:"auto",height:"50px",fontSize:"100%",fontWeight:"400"}}>SET NAME</Button>
         </div>
         <div className={styles.buttonBox}>
-        <Button variant="contained" sx={{backgroundColor:'#0094CE',position:"static",width:"100%",margin:"auto",height:"40px",fontSize:"100%",fontWeight:"400"}}>QUERY</Button>
+        <Button variant="contained" sx={{backgroundColor:'#0094CE',position:"static",width:"100%",margin:"auto",height:"50px",fontSize:"100%",fontWeight:"400"}}>SET MODEL</Button>
         </div>
-        <div className={styles.buttonBox}>
-        <Button variant="contained" sx={{backgroundColor:'#0094CE',position:"static",width:"100%",margin:"auto",height:"40px",fontSize:"100%",fontWeight:"400"}}>QUERY</Button>
-        </div>
+      
          
 
 

@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {Route,Routes,createBrowserRouter,RouterProvider } from 'react-router-dom';
-
+import SignIn from '../pages/Login/login';
 
 import Main from './Main'
 import Home from '../pages/home/home'
@@ -20,6 +20,11 @@ const Router = () => {
       ]  
       
         },
+        {
+          path:'/login',
+          element:<SignIn/>
+
+        }
   ])
   return <>
    <RouterProvider router={router}></RouterProvider>

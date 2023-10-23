@@ -2,6 +2,7 @@ import React, {useContext, useState} from "react";
 import {Link, NavLink} from "react-router-dom";
 import styles from "./navbar.module.css"
 import {SlMenu} from 'react-icons/sl'
+import {FiLogOut} from 'react-icons/fi'
 // import {UserContext} from "../../context/AuthContext";
 import {
     Popover,
@@ -29,8 +30,13 @@ const Navbar = () => {
 
     return <>
      <div className={styles.navbar}>
+        <div>
           <SlMenu/>
           <p>BB1</p>
+          </div>
+          <div >
+           <Link to={"/login"} style={{color:'#ffffff'}}>  <FiLogOut/></Link>
+          </div>
 
 
      </div>
