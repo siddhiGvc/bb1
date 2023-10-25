@@ -1,18 +1,17 @@
 .mainContainer{
-    
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
     margin: auto;
 }
 
+
 .container{
-    min-width:290px;
-    height: 700px;
-    padding-top: 60px;
+    min-width:270px;
+    height: 500px;
+    padding-top: 20px;
     background-color: #ffffff;
-    padding-left:1%;
-    padding-right:1%
+    padding-left:2%;
+    padding-right:2%
     
 }
 
@@ -29,7 +28,6 @@
 .rowContainer{
     display: flex;
     flex-direction: column;
-    gap: 5px;
     
 }
 
@@ -40,3 +38,5 @@
     height: 50px;
     
 }
+
+
